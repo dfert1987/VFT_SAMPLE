@@ -93,6 +93,11 @@
     padding-left: 14px;
 }
 
+.bottom-card a {
+    display: flex;
+    flex-direction: row;
+}
+
 .PDF-icon {
     height: 35px;
     cursor: pointer;

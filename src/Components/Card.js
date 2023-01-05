@@ -37,11 +37,11 @@ const Card = ({ data }) => {
                     </div>
                 </div>
                 <div className='hr-container'>
-                    <hr className='card-divider' />
+                    <hr className='card-divider' aria-hidden='true' />
                 </div>
                 <div className='bottom-card'>
-                    <img src={pdf} alt='PDF Icon' className='PDF-icon' />
                     <a href={data.PDF} target='_blank' rel='noreferrer'>
+                        <img src={pdf} alt='PDF Icon' className='PDF-icon' />
                         <h6 className='pdf-text'>Open a text-only version</h6>
                     </a>
                 </div>
