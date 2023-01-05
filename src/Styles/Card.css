@@ -35,6 +35,10 @@
     justify-content: space-between;
 }
 
+.pano-link {
+    display: flex;
+}
+
 .pano-icon {
     height: 42px;
     display: flex;
@@ -57,6 +61,8 @@
     margin-top: 0.5em;
     cursor: pointer;
     display: flex;
+    position: relative;
+    right: 1.75em;
     flex-direction: column;
 }
 
@@ -83,6 +89,11 @@
 .hr-container {
     padding-left: 14px;
     padding-right: 1em;
+}
+
+.pano-icon.relative {
+    position: relative;
+    bottom: 3.25em;
 }
 
 .bottom-card {
