@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url(../Assets/Fonts/SourceSansPro-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url(../Assets/Fonts/SourceSansPro-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SourceSansProExtraBold';
+    src: url(../Assets/Fonts/SourceSansPro-Bold.ttf);
+}

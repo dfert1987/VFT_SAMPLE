@@ -1,0 +1,110 @@
+.main-container.all-columns {
+    color: white;
+    display: grid;
+}
+
+.title-section {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    padding-left: 0.5em;
+}
+
+.test {
+    color: green;
+}
+
+.main-title {
+    color: #003e85;
+    font-size: 42px;
+    font-family: 'SourceSansProExtraBold';
+    margin-bottom: 0;
+    margin-top: 0.5em;
+}
+
+.intro {
+    font-size: 24px;
+    line-height: 30px;
+    font-family: 'SourceSansProBold';
+    color: #003e85;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+}
+
+.card-area {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 14;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.cards-container {
+    grid-column-start: 2;
+    grid-column-end: 14;
+    margin-bottom: 3.5em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+}
+
+@media (min-width: 650px) {
+    .title-section {
+        grid-column-start: 2;
+        grid-column-end: 12;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-gap: 2em;
+        grid-column-start: 2;
+        grid-column-end: 14;
+        grid-template-columns: repeat(2, 1fr);
+        margin-right: auto;
+        margin-right: auto;
+        padding-right: 0;
+        padding-left: 0;
+        justify-content: center;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .main-title {
+        font-size: 60px;
+        line-height: 68px;
+    }
+
+    .intro {
+        font-size: 26px;
+        line-height: 34px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main-title {
+        font-size: 75px;
+        line-height: 84px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .title-section {
+        grid-column-start: 2;
+        grid-column-end: 8;
+        padding-left: 1em;
+    }
+
+    .cards-container {
+        grid-template-columns: repeat(3, 1fr);
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .main-title {
+        font-size: 92px;
+        line-height: 104px;
+    }
+
+    .intro {
+        font-size: 30px;
+        line-height: 38px;
+    }
+}
