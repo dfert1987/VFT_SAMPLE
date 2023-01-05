@@ -18,11 +18,16 @@ const Card = ({ data }) => {
                 }}>
                 <div className='spacer'></div>
                 <div>
-                    <a href={data.PANO} target='_blank' rel='noreferrer'>
+                    <a
+                        href={data.PANO}
+                        target='_blank'
+                        rel='noreferrer'
+                        aria-hidden='true'>
                         <img
                             src={pano}
                             alt='360 view icon'
                             className='pano-icon'
+                            aria-hidden='true'
                         />
                     </a>
                 </div>
