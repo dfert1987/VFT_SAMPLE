@@ -19,7 +19,7 @@ export const DataFile = [
     {
         TITLE: 'Ancient Rome',
         SERIOUS: false,
-        INTRO: "Go back in time to explore the re-created world of ancient Rome, one of ancient history's most influential civilizations.",
+        INTRO: 'Go back in time to explore the re-created world of ancient Rome, one of ancient history’s most influential civilizations.',
         CARDS: [
             {
                 TITLE: 'The Battle of Zama',
