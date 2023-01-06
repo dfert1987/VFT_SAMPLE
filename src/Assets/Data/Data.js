@@ -1,9 +1,9 @@
-import zama from '../Images/Zama.jpg';
-import engineer from '../Images/engineering.jpg';
-import senate from '../Images/senate.jpg';
-import romanCities from '../Images/roman-cities.jpg';
-import gladiator from '../Images/gladiator.jpg';
-import dailyLife from '../Images/daily-life.jpg';
+import one from '../Images/card01.jpg';
+import two from '../Images/card02.jpg';
+import three from '../Images/card03.jpg';
+import four from '../Images/card04.jpg';
+import five from '../Images/card05.jpg';
+import six from '../Images/card06.jpg';
 import ccc from '../Images/ccc.jpeg';
 import wpa from '../Images/wpa.jpeg';
 import hoover from '../Images/hooverville.jpeg';
@@ -23,42 +23,42 @@ export const DataFile = [
         CARDS: [
             {
                 TITLE: 'The Battle of Zama',
-                IMAGE: zama,
+                IMAGE: one,
                 PARA: 'Join Roman soldiers as they face off against Carthaginian forces at the Battle of Zama in 202 BCE',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/the_battle_of_zama/index.html',
                 PDF: 'https://www.hmhco.com/content/literature/into_lit/g6/teacher/pdf/06le_03_pgp_answerkey.pdf',
             },
             {
                 TITLE: 'Roman Engineering and Construction',
-                IMAGE: engineer,
+                IMAGE: two,
                 PARA: 'From aquaducts to amphitheaters check out the innovations that helped pave the way for a Roman Empire.',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/roman_engineering_and_construction/index.html',
                 PDF: 'link',
             },
             {
                 TITLE: 'The Roman Senate',
-                IMAGE: senate,
+                IMAGE: three,
                 PARA: 'Join Roman leaders on the senate floor as they make the laws that will rule the largest empire on Earth.',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/the_roman_senate/index.html',
                 PDF: 'link',
             },
             {
                 TITLE: 'Roman Cities',
-                IMAGE: romanCities,
+                IMAGE: four,
                 PARA: 'Join Roman soldiers as they face off against Carthaginian forces at the Battle of Zama in 202 BCE.',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/roman_cities/index.html',
                 PDF: 'link',
             },
             {
                 TITLE: 'Gladiator Contents',
-                IMAGE: gladiator,
+                IMAGE: five,
                 PARA: 'Grab your weapon of choice and take on other combatants in the Colleseum for the entertainment of the Roman people.',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/gladiator_contests/index.html',
                 PDF: 'link',
             },
             {
                 TITLE: 'Daily Life',
-                IMAGE: dailyLife,
+                IMAGE: six,
                 PARA: 'Get a first hand look on what day to day life was like for your average Roman.',
                 PANO: 'https://www.hmhco.com/content/social-studies/ss_612_shared/g6_8/student/html/daily_life_in_rome/index.html',
                 PDF: 'link',
