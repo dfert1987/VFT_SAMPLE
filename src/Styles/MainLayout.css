@@ -22,8 +22,8 @@
 }
 
 .intro {
-    font-size: 24px;
-    line-height: 30px;
+    font-size: 21px;
+    line-height: 32px;
     font-family: 'SourceSansProBold';
     color: #003e85;
     margin-top: 0.5em;
@@ -74,7 +74,7 @@
     }
 
     .intro {
-        font-size: 26px;
+        font-size: 22px;
         line-height: 34px;
     }
 }
@@ -104,7 +104,7 @@
     }
 
     .intro {
-        font-size: 30px;
-        line-height: 38px;
+        font-size: 24px;
+        line-height: 36px;
     }
 }

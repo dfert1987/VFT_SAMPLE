@@ -22,8 +22,8 @@
     margin-bottom: 0;
     margin-top: 0;
     font-family: 'SourceSansPro';
-    font-size: 17px;
-    line-height: 26px;
+    font-size: 21px;
+    line-height: 32px;
 }
 
 .header-title {
@@ -107,6 +107,11 @@
     .header-title {
         font-size: 30px;
         line-height: 38px;
+    }
+
+    .header-sub {
+        font-size: 22px;
+        line-height: 34px;
     }
 }
 
