@@ -50,6 +50,7 @@
 .card-title {
     color: #0072db;
     font-family: 'SourceSansProExtraBold';
+    font-synthesis: none;
     text-decoration: underline;
     font-size: 21px;
     line-height: 32px;
@@ -65,6 +66,7 @@
 .card-description {
     color: #55595b;
     font-family: 'SourceSansPro';
+    font-synthesis: none;
     font-size: 17px;
     line-height: 26px;
     margin-top: 0;
@@ -113,6 +115,7 @@
 .pdf-text {
     color: #0072db;
     font-family: 'SourceSansProBold';
+    font-synthesis: none;
     text-decoration: underline;
     font-size: 19px;
     line-height: 30px;

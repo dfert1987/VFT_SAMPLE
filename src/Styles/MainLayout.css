@@ -17,6 +17,7 @@
     color: #003e85;
     font-size: 42px;
     font-family: 'SourceSansProExtraBold';
+    font-synthesis: none;
     margin-bottom: 0;
     margin-top: 0.5em;
 }
@@ -25,6 +26,7 @@
     font-size: 21px;
     line-height: 32px;
     font-family: 'SourceSansProBold';
+    font-synthesis: none;
     color: #003e85;
     margin-top: 0.5em;
     margin-bottom: 2em;
