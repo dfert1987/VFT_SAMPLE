@@ -15,3 +15,9 @@
     font-synthesis: none;
     src: url(../Assets/Fonts/SourceSansPro-Bold.ttf);
 }
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+}

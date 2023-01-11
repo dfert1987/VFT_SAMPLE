@@ -152,6 +152,10 @@
     .card-description {
         font-size: 18px;
         line-height: 28px;
+        font-weight: normal;
+        /* -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        font-smoothing: antialiased; */
     }
 
     .card-image {
