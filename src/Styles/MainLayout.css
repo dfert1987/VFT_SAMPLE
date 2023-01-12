@@ -50,7 +50,7 @@
 @media (min-width: 650px) {
     .title-section {
         grid-column-start: 2;
-        grid-column-end: 12;
+        grid-column-end: 11;
     }
 
     .cards-container {
@@ -91,7 +91,7 @@
 @media (min-width: 1280px) {
     .title-section {
         grid-column-start: 2;
-        grid-column-end: 8;
+        grid-column-end: 11;
         padding-left: 1em;
     }
 

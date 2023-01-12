@@ -1,1 +1,1 @@
-export const selection = 'Ancient Rome';
+export const selection = 'The Great Depression';
