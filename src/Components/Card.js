@@ -53,7 +53,7 @@ const Card = ({ data }) => {
                 <div className='bottom-card'>
                     <a href={data.PDF} target='_blank' rel='noreferrer'>
                         <img src={pdf} alt='PDF Icon' className='PDF-icon' />
-                        <h6 className='pdf-text'>Open a text-only version</h6>
+                        <h6 className='pdf-text'>Open a text version</h6>
                     </a>
                 </div>
             </div>
