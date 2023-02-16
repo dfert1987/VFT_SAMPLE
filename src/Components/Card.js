@@ -35,13 +35,17 @@ const Card = ({ data }) => {
             <div className='below-image flexible'>
                 <div className='flexible'>
                     <div className='card-text-section'>
-                        <a href={data.PANO} target='_blank' rel='noreferrer' className='pano-link'>
-                        <img
-                            src={pano}
-                            alt='360 view icon'
-                            className='pano-icon relative'
-                            aria-hidden='true'
-                        />
+                        <a
+                            href={data.PANO}
+                            target='_blank'
+                            rel='noreferrer'
+                            className='pano-link'>
+                            <img
+                                src={pano}
+                                alt='360 view icon'
+                                className='pano-icon relative'
+                                aria-hidden='true'
+                            />
                             <h5 className='card-title'>{data.TITLE}</h5>
                         </a>
                         <p className='card-description'>{data.PARA}</p>
@@ -53,7 +57,7 @@ const Card = ({ data }) => {
                 <div className='bottom-card'>
                     <a href={data.PDF} target='_blank' rel='noreferrer'>
                         <img src={pdf} alt='PDF Icon' className='PDF-icon' />
-                        <h6 className='pdf-text'>Open a text version</h6>
+                        <h6 className='pdf-text'>Open a text description</h6>
                     </a>
                 </div>
             </div>
